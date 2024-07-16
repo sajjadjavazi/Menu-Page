@@ -13,13 +13,6 @@
 - CSS
 - JavaScript
 
-### Project Structure
-menu-page-project/
-│
-├── index.html          # The main HTML file
-├── styles.css          # The CSS file for styling
-└── scripts.js          # The JavaScript file for functionality
-
 ### Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
