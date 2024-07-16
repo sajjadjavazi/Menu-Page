@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Page</title>
+    <link rel="stylesheet" href="./asset/CSS/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="order-summary">
+            <p>جمع کل سفارشات: <span id="total-orders">0 تومان</span></p>
+            <p>حق سرویس و کارمزد: <span id="service-fee">1200 تومان</span></p>
+            <p>تخفیف: <span id="discount">0 تومان</span></p>
+            <input type="text" id="discount-code" placeholder="کد تخفیف">
+            <button id="apply-discount">✓</button>
+            <p>مبلغ قابل پرداخت: <span id="payable-amount">0 تومان</span></p>
+            <button id="place-order">ثبت سفارش</button>
+        </div>
+        <div class="menu">
+            <h1>رستوران مک دونالد شعبه کرج</h1>
+            <div class="item-group">
+                <div class="menu-item" data-price="16000">
+                    <div class="item-info">
+                        <h2>همبرگر معمولی</h2>
+                        <p class="price">16000 تومان</p>
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <span class="count">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                    </div>
+                    <img src="./src/103885468.jpg" alt="همبرگر معمولی">
+                </div>
+                <div class="menu-item" data-price="19000">
+                    <div class="item-info">
+                        <h2>همبرگر مخصوص</h2>
+                        <p class="price">19000 تومان</p>
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <span class="count">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                    </div>
+                    <img src="./src/Cheeseburger.jpg" alt="همبرگر مخصوص">
+                </div>
+                <div class="menu-item" data-price="15000">
+                    <div class="item-info">
+                        <h2>سیب زمینی سرخ کرده ویژه</h2>
+                        <p class="price">15000 تومان</p>
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <span class="count">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                    </div>
+                    <img src="./src/french-fries.jpg"
+                        alt="سیب زمینی سرخ کرده ویژه">
+                </div>
+                <div class="menu-item" data-price="30000">
+                    <div class="item-info">
+                        <h2>پیتزا مخصوص</h2>
+                        <p class="price">30000 تومان</p>
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <span class="count">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                    </div>
+                    <img src="./src/pizza.jpg" alt="پیتزا مخصوص">
+                </div>
+                <div class="menu-item" data-price="50000">
+                    <div class="item-info">
+                        <h2>پکیج ویژه مک‌دونالد کرج</h2>
+                        <p class="price">50000 تومان</p>
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <span class="count">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                    </div>
+                    <img src="./src/package.jpg" alt="پکیج ویژه">
+                </div>
+                <div class="menu-item" data-price="40000">
+                    <div class="item-info">
+                        <h2>وعده بزرگسالان</h2>
+                        <p class="price">40000 تومان</p>
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <span class="count">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                    </div>
+                    <img src="./src/6816689_900.png" alt="وعده بزرگسالان">
+                </div>
+                <div class="menu-item" data-price="7000">
+                    <div class="item-info">
+                        <h2>کوکاکولا</h2>
+                        <p class="price">7000 تومان</p>
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <span class="count">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                    </div>
+                    <img src="./src/coca cola.jpg" alt="کوکاکولا">
+                </div>
+                <div class="menu-item" data-price="8000">
+                    <div class="item-info">
+                        <h2>کوکاکولا رژیمی</h2>
+                        <p class="price">8000 تومان</p>
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <span class="count">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                    </div>
+                    <img src="./src/coca cola diet.jpg" alt="کوکا کولا رژیمی">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./asset/JS/index.js"></script>
+</body>
+
+</html>
