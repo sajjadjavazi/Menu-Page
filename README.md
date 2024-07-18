@@ -1,4 +1,4 @@
-# Menu Page Project  |  [Demo](https://sajjadjavazi.github.io/Practice5/ "Demo")
+# Menu Page Project  |  [Demo](https://sajjadjavazi.github.io/Menu-Page/ "Demo")
 ### Description
 **The Menu Page Project is a web application designed to simulate an online food ordering system. Users can view a menu of items, adjust quantities, apply discount codes, and see a summary of their order including the total cost, service fee, and any applicable discounts. The user interface is designed to be visually appealing and user-friendly.**
 
